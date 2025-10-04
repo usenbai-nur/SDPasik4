@@ -5,13 +5,13 @@ This project demonstrates the Bridge Design Pattern in Java using the example of
 The Bridge Pattern is used to separate abstraction from its implementation, so they can vary independently. This design allows combining different shapes and colors without creating an explosion of subclasses.
 
 
- Structure
+## Structure
 
- **Color (Interface)** – defines the behavior for applying color.
- **RedColor / BlueColor (Concrete Implementations)** – specific color implementations.
- **Shape (Abstract class)** – abstraction for geometric figures.
- **Circle / Square (Refined Abstractions)** – concrete shapes that can use any color.
- **Main (Client)** – demonstrates the pattern in action.
+* **Color (Interface)** – defines the behavior for applying color.
+* **RedColor / BlueColor (Concrete Implementations)** – specific color implementations.
+* **Shape (Abstract class)** – abstraction for geometric figures.
+* **Circle / Square (Refined Abstractions)** – concrete shapes that can use any color.
+* **Main (Client)** – demonstrates the pattern in action.
 
 
 ##  output:
@@ -22,3 +22,6 @@ white
 Square filled with:
 blue
 ```
+
+This project successfully demonstrates the Bridge Design Pattern in Java.
+By separating abstraction (shapes) from implementation (colors), the design becomes flexible, extensible, and easy to maintain.
